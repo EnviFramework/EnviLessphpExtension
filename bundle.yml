@@ -23,10 +23,11 @@ install:
     clone: "https://github.com/EnviMVC/EnviLessphpExtension.git"
 depend:
     lessphp:
-        install_path: "libs/lessphp/"
-        version: "v0.4.0"
-        mode: "git"
-        clone: "https://github.com/leafo/lessphp.git"
+        install:
+            path: "libs/lessphp/"
+            version: "v0.4.0"
+            mode: "git"
+            clone: "https://github.com/leafo/lessphp.git"
         homepage: "http://leafo.net/lessphp/"
         license: "MIT GPL3.0"
         authors:
