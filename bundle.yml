@@ -18,7 +18,7 @@ require: {
     php: ">=5.2"
     envi: ">=3.0"
 install:
-    version:"@new"
+    version: "@new"
     mode: "git"
     clone: "https://github.com/EnviMVC/EnviLessphpExtension.git"
 depend:
