@@ -13,9 +13,10 @@ CSS拡張のLessコンパイラを使用するためのエクステンションです。
 --------------------------------------------------
 EnviLessphpExtensionパッケージをEnviMvcにバンドルさせるには、
 
-`envi install-bundle new https://raw.githubusercontent.com/EnviMVC/EnviLessphpExtension/master/bundle.yml`
+`envi install-bundle new https://raw.githubusercontent.com/EnviMVC/EnviLessphpExtension/master/bundle_newest.yml`
 
 コマンドを実行します。
+
 
 インストール・設定
 --------------------------------------------------
