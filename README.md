@@ -1,23 +1,19 @@
-コンソールログを使用するためのエクステンションクラス
+Lessphpを使用するためのエクステンションクラス
 =================================
 
 概要
 --------------------------------------------------
-`console()->log('fooo');`
-で、ブラウザのコンソールに、ログを出力できるようになるエクステンションです。
+CSS拡張のLessコンパイラを使用するためのエクステンションです。
 
+ http://leafo.net/lessphp
 
-MarkdownExtraに関する詳細は、
-
-https://michelf.ca/projects/php-markdown/extra/
-
-を参照して下さい。
+を内部的に使用しています。
 
 パッケージ管理
 --------------------------------------------------
-EnviConsoleExtensionパッケージをEnviMvcにバンドルさせるには、
+EnviLessphpExtensionパッケージをEnviMvcにバンドルさせるには、
 
-`envi install-bundle new https://raw.githubusercontent.com/EnviMVC/EnviConsoleExtension/master/bundle.yml`
+`envi install-bundle new https://raw.githubusercontent.com/EnviMVC/EnviLessphpExtension/master/bundle.yml`
 
 コマンドを実行します。
 
@@ -26,7 +22,7 @@ EnviConsoleExtensionパッケージをEnviMvcにバンドルさせるには、
 
 パッケージがバンドルされていれば、
 
-`envi install-extension {app_key} {DI設定ファイル} console`
+`envi install-extension {app_key} {DI設定ファイル} lessphp`
 
 コマンドでインストール出来ます。
 
