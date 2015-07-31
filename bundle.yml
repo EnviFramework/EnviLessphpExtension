@@ -1,8 +1,8 @@
 name: "lessphp"
-type": "extension"
+type: "extension"
 description: "Lessphpを使用するためのエクステンションクラス"
-keywords: "less,css",
-homepage: "http://www.enviphp.net/",
+keywords: "less,css"
+homepage: "http://www.enviphp.net/"
 license: "LGPL-2.0"
 authors:
     -
